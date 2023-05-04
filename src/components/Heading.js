@@ -9,7 +9,7 @@ function Heading(){
     const header_text = "header_text";
 
     return(
-        <div className="container_fluid header_background_color">
+        <div className="container-fluid header_background_color">
             <div className="row">
 
             <div className="col-12 col-sm-6">
@@ -19,13 +19,18 @@ function Heading(){
                 This application will allow you to send a text to any US number by scheduling it beforehand.
                 Use this to send friendly reminders or give alerts to yourself, family, and friends!
                 </p>
+                <hr/>
                 <Login/>
                 </div>
             </div>
 
            <div class="col-sm-6 img_div">
                 <div>
-                    <img className="d-none d-sm-block rounded header_img"  src={image_src} alt=""></img>
+                    <img 
+                        className="d-none d-sm-block rounded header_img" 
+                        src={image_src} 
+                        alt="">
+                    </img>
                 </div>
             </div>
 
